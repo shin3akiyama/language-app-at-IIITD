@@ -1,0 +1,19 @@
+{
+  "name": "language-app-at-iiitd",
+  "version": "1.0.0",
+  "description": "A language learning app for children with dyslexia in India",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev:server": "node --watch backend/server.js",
+    "test": "node --check backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
